@@ -1,0 +1,29 @@
+{
+  "name": "clean-deps",
+  "version": "0.0.0",
+  "description": "Clean all node dependencies",
+  "main": "index.js",
+  "bin": {
+    "clean-deps": "./bin/clean-deps.js"
+  },
+  "scripts": {
+    "prepublishOnly": "npm-audit-ok && package-ok"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddhruv/clean-deps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddhruv/clean-deps/issues"
+  },
+  "homepage": "https://github.com/maddhruv/clean-deps#readme",
+  "dependencies": {
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "prepublish-ok": "^0.5.0"
+  }
+}
